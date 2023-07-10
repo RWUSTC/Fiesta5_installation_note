@@ -5,9 +5,10 @@ This is the installation note for FIESTA5 by A.V.Smirnov.
 *******************************************************************************
 
 1. To get FIESTA5 installation pack, run:
- 
-   git clone https://bitbucket.org/feynmanIntegrals/fiesta.git 
 
+```
+   git clone https://bitbucket.org/feynmanIntegrals/fiesta.git 
+```
 2. Install dependencies: (for ubuntu)
 
    apt-get install git g++ cmake zlib1g-dev libmpfr-dev gfortran libgsl0-dev
