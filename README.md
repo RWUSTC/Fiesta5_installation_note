@@ -10,7 +10,7 @@ This is the installation note for FIESTA5 by A.V.Smirnov.
 
 2. Install dependencies: (for ubuntu)
 
-apt-get install git g++ cmake zlib1g-dev libmpfr-dev gfortran libgsl0-dev
+   apt-get install git g++ cmake zlib1g-dev libmpfr-dev gfortran libgsl0-dev
 
 - for mpi user: apt-get install mpich
 - for MMA interface: apt-get install qhull-bin
