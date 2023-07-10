@@ -12,10 +12,10 @@ This is the installation note for FIESTA5 by A.V.Smirnov.
 
 apt-get install git g++ cmake zlib1g-dev libmpfr-dev gfortran libgsl0-dev
 
--for mpi user: apt-get install mpich
--for MMA interface: apt-get install qhull-bin
--for GPU version: apt-get install nvidia-cuda-toolkit nvidia-cuda-dev
--for build essential: apt-get install uuid-dev
+- for mpi user: apt-get install mpich
+- for MMA interface: apt-get install qhull-bin
+- for GPU version: apt-get install nvidia-cuda-toolkit nvidia-cuda-dev
+- for build essential: apt-get install uuid-dev
 
 Special note for CentOS users: one need to install those dependencies with theircertain correspondent with yum.
 
@@ -25,7 +25,7 @@ Special note for CentOS users: one need to install those dependencies with their
 
 4. Modify extra/Cuba-4.0/src/common/Parallel.c:
 
--Add "#include <sys/select.h>" to the preset section of this C file.
+- Add "#include <sys/select.h>" to the preset section of this C file.
 
 5. Go back to the FIESTA5 folder. run "make dep" to compile the dependencies.
 
