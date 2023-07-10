@@ -7,12 +7,12 @@ This is the installation note for FIESTA5 by A.V.Smirnov.
 1. To get FIESTA5 installation pack, run:
 
 ```
-   git clone https://bitbucket.org/feynmanIntegrals/fiesta.git 
+git clone https://bitbucket.org/feynmanIntegrals/fiesta.git 
 ```
 2. Install dependencies: (for ubuntu)
 
 ```
-   apt-get install git g++ cmake zlib1g-dev libmpfr-dev gfortran libgsl0-dev
+apt-get install git g++ cmake zlib1g-dev libmpfr-dev gfortran libgsl0-dev
 ```
 - for mpi user: apt-get install mpich
 - for MMA interface: apt-get install qhull-bin
@@ -23,7 +23,7 @@ Special note for CentOS users: one need to install those dependencies with their
 
 3. Run
 ```
-   ./configure
+./configure
 ```
 to produce paths.inc. And make sure you substitute the include path and library path for mpfr correctly. Especially when one is running on a cluster. 
 
@@ -33,19 +33,19 @@ to produce paths.inc. And make sure you substitute the include path and library 
 
 - Add
 ```
-  #include <sys/select.h>
+#include <sys/select.h>
 ```
 to the preset section of this C file.
 
 5. Go back to the FIESTA5 folder. run 
 ```
-   make dep
+make dep
 ```
 to compile the dependencies.
 
 7. Run
 ```
-   make
+make
 ```
 to compile the essential binaries for this package.
 
@@ -62,7 +62,7 @@ to compile the essential binaries for this package.
 
 8. One can run
 ```
-   make test
+make test
 ```
 and
 ```
